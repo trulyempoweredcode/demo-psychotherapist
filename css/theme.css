@@ -1,0 +1,47 @@
+/* =============================================
+   THEME: Warm Grey
+   Sophisticated, understated — psychotherapy, counselling
+   Font Pairing: Editorial (Lora + Montserrat)
+   ============================================= */
+
+/* --- Google Fonts --- */
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;0,700;1,400&family=Montserrat:wght@400;500;600&display=swap');
+
+/* --- Theme Variables --- */
+:root {
+  /* Colour Palette */
+  --color-primary: #6B6660;
+  --color-primary-light: #8A847D;
+  --color-primary-dark: #4A4540;
+  --color-secondary: #B08968;
+  --color-secondary-light: #C9A688;
+  --color-secondary-dark: #8A6844;
+  --color-accent: #7D7088;
+  --color-accent-light: #9D90A8;
+
+  --color-bg: #FAF9F7;
+  --color-bg-alt: #F0EEEB;
+  --color-bg-dark: #3A3633;
+  --color-surface: #FFFFFF;
+  --color-surface-alt: #F5F4F1;
+
+  --color-text: #3A3633;
+  --color-text-light: #787270;
+  --color-text-inverse: #FAF9F7;
+  --color-text-heading: #2E2B28;
+
+  --color-border: #DDD9D5;
+  --color-border-light: #EAE8E5;
+
+  --color-success: #6B8B6F;
+  --color-error: #B85B5B;
+
+  /* Typography */
+  --font-heading: 'Lora', Georgia, 'Times New Roman', serif;
+  --font-body: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+
+  /* Editorial sizing overrides */
+  --text-h1-desktop: 2.75rem;
+  --text-h2-desktop: 2.2rem;
+  --text-h3-desktop: 1.65rem;
+}
