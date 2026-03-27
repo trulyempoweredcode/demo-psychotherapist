@@ -13,12 +13,12 @@
   <meta property="og:url" content="{{SITE_URL}}/">
   <meta property="og:title" content="Eleanor Hartley Psychotherapy — A calm space to find clarity">
   <meta property="og:description" content="BACP registered psychotherapist in Harrogate offering therapy for anxiety, depression, couples and trauma.">
-  <meta property="og:image" content="{{SITE_URL}}/images/hero.jpg">
+  <meta property="og:image" content="{{SITE_URL}}/images/hero-bg.jpg">
 
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Eleanor Hartley Psychotherapy — A calm space to find clarity">
   <meta name="twitter:description" content="BACP registered psychotherapist in Harrogate offering therapy for anxiety, depression, couples and trauma.">
-  <meta name="twitter:image" content="{{SITE_URL}}/images/hero.jpg">
+  <meta name="twitter:image" content="{{SITE_URL}}/images/hero-bg.jpg">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -95,11 +95,11 @@
   <main id="main">
 
     <!-- SECTION: hero -->
-    <section class="hero">
+    <section class="hero hero--fullwidth" style="background: linear-gradient(rgb(30 55 38 / 62%), rgb(30 55 38 / 20%)), url('images/hero-bg.jpg') center/cover no-repeat;">
       <div class="container hero__inner">
-        <div class="hero__content">
-          <span class="hero__label">Welcome to Eleanor Hartley Psychotherapy</span>
-          <h1 class="hero__heading">Therapy that helps you find your way</h1>
+        <div class="hero__content" style="text-align: center; max-width: 720px; margin: 0 auto;">
+          <span class="hero__label">Eleanor Hartley Psychotherapy</span>
+          <h1 class="hero__heading">A calm space to find clarity</h1>
           <p class="hero__text">I'm Eleanor, a BACP registered psychotherapist based in Harrogate. I offer a warm, confidential space where you can talk openly about whatever is on your mind and begin to make the changes you need.</p>
           <div class="hero__actions">
             <a href="contact.html" class="btn btn--primary">Book a Free Consultation</a>
@@ -111,55 +111,34 @@
             <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg> Free initial consultation</li>
           </ul>
         </div>
-        <div class="hero__image-wrap">
-          <img src="images/hero.jpg" alt="Eleanor Hartley Psychotherapy — welcoming therapy room in Harrogate" class="hero__image" width="800" height="600" loading="eager">
-        </div>
       </div>
     </section>
     <!-- /SECTION: hero -->
 
-    <!-- SECTION: info-band -->
-    <section class="info-band info-band--primary">
-      <div class="container info-band__inner">
-        <div class="info-band__item">
-          <div class="info-band__icon">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
-          </div>
-          <div class="info-band__item-text">
-            <span class="info-band__title">500+ Clients Supported</span>
-            <span class="info-band__text">Building trust, one session at a time</span>
-          </div>
+    <!-- SECTION: image-grid -->
+    <section class="section reveal">
+      <div class="container grid grid--3">
+        <div class="image-card">
+          <img src="images/grid-1.jpg" alt="Comfortable therapy room with green armchair and warm lighting" class="image-card__image" width="800" height="600" loading="lazy">
         </div>
-        <div class="info-band__item">
-          <div class="info-band__icon">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
-          </div>
-          <div class="info-band__item-text">
-            <span class="info-band__title">12 Years' Experience</span>
-            <span class="info-band__text">Dedicated practice and ongoing training</span>
-          </div>
+        <div class="image-card">
+          <img src="images/grid-2.jpg" alt="Peaceful garden view through a window" class="image-card__image" width="800" height="600" loading="lazy">
         </div>
-        <div class="info-band__item">
-          <div class="info-band__icon">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
-          </div>
-          <div class="info-band__item-text">
-            <span class="info-band__title">BACP Registered &amp; Insured</span>
-            <span class="info-band__text">Accredited professional body membership</span>
-          </div>
+        <div class="image-card">
+          <img src="images/grid-3.jpg" alt="Psychology books and fresh flowers on a wooden desk" class="image-card__image" width="800" height="600" loading="lazy">
         </div>
       </div>
     </section>
-    <!-- /SECTION: info-band -->
+    <!-- /SECTION: image-grid -->
 
     <!-- SECTION: intro -->
     <section class="section section--alt reveal">
       <div class="container intro__inner">
         <div class="intro__image-wrap">
-          <img src="images/home-portrait.jpg" alt="Dr Eleanor Hartley, psychotherapist at Eleanor Hartley Psychotherapy" class="intro__image" width="600" height="800" loading="lazy">
+          <img src="images/home-portrait.jpg" alt="Eleanor Hartley, psychotherapist at Eleanor Hartley Psychotherapy" class="intro__image" width="600" height="800" loading="lazy">
         </div>
         <div class="intro__text">
-          <span class="section-label">Welcome</span>
+          <span class="section-label">Meet Eleanor</span>
           <h2>A safe space to be heard</h2>
           <p>Taking the first step towards therapy can feel daunting, but you don't have to face it alone. I provide a warm, non-judgemental environment where you can explore your thoughts and feelings at your own pace. Whatever you're going through — anxiety, relationship difficulties, past trauma or simply feeling stuck — I'm here to listen and to help.</p>
           <p>My approach is tailored to you as an individual, drawing on integrative and evidence-based methods including CBT, person-centred therapy and EMDR. Whether you're seeking support with a specific issue or need a space to make sense of things, you'll find a compassionate, professional service here in Harrogate.</p>
@@ -168,6 +147,17 @@
       </div>
     </section>
     <!-- /SECTION: intro -->
+
+    <!-- SECTION: blockquote -->
+    <section class="section reveal">
+      <div class="container text-center">
+        <blockquote class="blockquote">
+          <p class="blockquote__text">"The greatest discovery of my generation is that a human being can alter his life by altering his attitudes of mind."</p>
+          <cite class="blockquote__cite">William James</cite>
+        </blockquote>
+      </div>
+    </section>
+    <!-- /SECTION: blockquote -->
 
     <!-- SECTION: services-overview -->
     <section class="section reveal">
@@ -335,7 +325,7 @@
   <div class="cookie-banner" role="dialog" aria-label="Cookie consent">
     <div class="cookie-banner__inner">
       <p class="cookie-banner__text">We use cookies to improve your experience. See our <a href="cookies-policy.html">cookie policy</a> for details.</p>
-      <button class="cookie-banner__accept">Accept</button>
+      <div class="cookie-banner__buttons"><button class="cookie-banner__accept">Accept</button><button class="cookie-banner__decline">Decline</button></div>
     </div>
   </div>
 
