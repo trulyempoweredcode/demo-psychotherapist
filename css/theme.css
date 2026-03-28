@@ -51,3 +51,20 @@
 .hero__text {
   text-shadow: 0 1px 4px rgba(0, 0, 0, 0.35);
 }
+
+/* Portrait image — taller on desktop */
+@media (min-width: 768px) {
+  .intro__image-wrap {
+    min-height: 550px;
+  }
+}
+
+/* Blockquote: larger text, rounder corners, tighter vertical margin */
+.blockquote {
+  border-radius: 20px;
+  margin: var(--space-md) 0;
+}
+
+.blockquote__text {
+  font-size: var(--text-3xl);
+}
